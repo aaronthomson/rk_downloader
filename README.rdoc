@@ -1,15 +1,17 @@
 = Download RunKeeper activities
 
 == Clone repo
-  git clone https://github.com/aaronthomson/rk_downloader
-	cd rk_downloader
+  
+    git clone https://github.com/aaronthomson/rk_downloader
+	  cd rk_downloader
 
 == Install Gems
-	gem install mechanize
-	gem install highline
-	gem install ruby-progressbar
+	
+	  gem install mechanize
+	  gem install highline
+	  gem install ruby-progressbar
 	
 == Run it!
-  ruby runkeeper.rb
+    ruby runkeeper.rb
 
 Activities will be stored in "./gpx" and "./kml" directories
